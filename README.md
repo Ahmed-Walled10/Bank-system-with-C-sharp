@@ -1,33 +1,55 @@
-# Bank System in C# (OOP)
+# 🏦 Bank System in C# (OOP)
 
-This is a simple Bank System implemented in C# using Object-Oriented Programming (OOP) principles. The system demonstrates the use of **encapsulation**, **exception handling**, and **good coding practices** such as meaningful naming conventions and comments.
-
-## Features
-
-1. **Create a New Account**: Users can create a new bank account with a unique account number and password.
-2. **Login to Existing Account**: Users can log in using their account number and password.
-3. **Deposit Money**: Users can deposit money into their account.
-4. **Withdraw Money**: Users can withdraw money from their account (with balance validation).
-5. **Check Account Balance**: Users can view their current account balance.
-6. **Send Money to Another Account**: Users can transfer money to another account (with validation).
-7. **Schedule an Appointment**: Users can schedule an appointment at a bank branch.
-8. **Exception Handling**: The system includes robust exception handling for invalid inputs, insufficient funds, duplicate accounts, and other errors.
+A secure and robust bank system demonstrating **C# Object-Oriented Programming**, **encapsulation**, and **exception handling**. Built with clean code practices, meaningful naming conventions, and detailed comments.
 
 ---
 
-## Code Structure
+## 🚀 Features
 
-The project is organized into the following classes:
-
-1. **Account.cs**: Represents a bank account with properties like `AccountNumber`, `Password`, `Balance`, and methods for depositing, withdrawing, and transferring money.
-2. **Bank.cs**: Manages a collection of accounts and provides methods for creating accounts, logging in, and scheduling appointments.
-3. **Program.cs**: The main entry point of the application, handling user input and displaying menus.
-4. **Exceptions**: Custom exceptions are used to handle specific errors like insufficient funds, invalid credentials, and duplicate accounts.
+- **Account Management**:
+  - ✅ Create a new account (unique account number + password).
+  - 🔐 Log in with existing credentials.
+  - 💰 Deposit/Withdraw funds (with validation).
+  - 📤 Transfer money to other accounts.
+  - 📅 Schedule appointments at bank branches.
+- **Error Handling**:
+  - 🛑 Custom exceptions for invalid inputs, duplicates, insufficient funds, and more.
 
 ---
 
-## How to Use
+## 🧱 Code Structure
 
-1. Clone the repository to your local machine.
-   ```bash
-   git clone https://github.com/your-username/bank-system-csharp.git
+### Key Classes
+- **`Account`**:  
+  - Encapsulates `AccountNumber`, `Password`, `Balance`.  
+  - Methods: `Deposit()`, `Withdraw()`, `Transfer()`.
+- **`Bank`**:  
+  - Manages accounts (`List<Account>`).  
+  - Methods: `CreateAccount()`, `Login()`, `ScheduleAppointment()`.
+- **`Program`**:  
+  - Main entry point with user menus and input handling.
+- **Custom Exceptions**:  
+  - `InsufficientFundsException`, `InvalidCredentialsException`, `DuplicateAccountException`.
+
+---
+
+## 📋 Code Snippets
+
+### Account Class (Encapsulation)
+```csharp
+public class Account
+{
+    public string AccountNumber { get; private set; }
+    public string Password { get; private set; }
+    public decimal Balance { get; private set; }
+
+    // Constructor and methods (Deposit, Withdraw, Transfer) with validation
+    public void Withdraw(decimal amount)
+    {
+        if (amount <= 0) 
+            throw new ArgumentException("Amount must be positive.");
+        if (amount > Balance) 
+            throw new InsufficientFundsException("Balance too low.");
+        Balance -= amount;
+    }
+}
