@@ -1,0 +1,14 @@
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\bin\Debug\net8.0\oop project- bank system.exe
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\bin\Debug\net8.0\oop project- bank system.deps.json
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\bin\Debug\net8.0\oop project- bank system.runtimeconfig.json
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\bin\Debug\net8.0\oop project- bank system.dll
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\bin\Debug\net8.0\oop project- bank system.pdb
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\obj\Debug\net8.0\oop project- bank system.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\obj\Debug\net8.0\oop project- bank system.AssemblyInfoInputs.cache
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\obj\Debug\net8.0\oop project- bank system.AssemblyInfo.cs
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\obj\Debug\net8.0\oop project- bank system.csproj.CoreCompileInputs.cache
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\obj\Debug\net8.0\oop project- bank system.dll
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\obj\Debug\net8.0\refint\oop project- bank system.dll
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\obj\Debug\net8.0\oop project- bank system.pdb
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\obj\Debug\net8.0\oop project- bank system.genruntimeconfig.cache
+C:\Users\micro\source\repos\oop project- bank system\oop project- bank system\obj\Debug\net8.0\ref\oop project- bank system.dll
